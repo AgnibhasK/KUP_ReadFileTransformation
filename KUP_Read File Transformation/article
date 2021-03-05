@@ -1,0 +1,28 @@
+Software testing is the process of verifying and validating , the developed software that works according to expectations or not. We already know that no code is perfect and completely bug-free. Also, in this fast-changing era every now and then various features are added which only increases the chances of getting bugs. Hence, the code is changed and improvised regularly to minimise the bugs, add new features, and integrate everything to work smoothly together.
+
+
+Now, developing such software is quite a tedious process but after that, we also need to test whether the added features or the bug-fixes work properly or not. Testing all of the software manually could be very time-consuming, and counterproductive. Instead, this task can be automated so that whenever the developer makes any changes it can be tested automatically. For better and in-depth understanding we are going to look into two broad classifications of software testing namely, Unit Testing and Integration Testing.
+
+Software Testing Life cycle
+Software Testing Life Cycle
+Unit testing
+Unit testing verifies the working of only one individual module without considering any of its dependencies. This type of testing is used when any changes made to a module needs to be verified without interacting with any other parts of the software. Now, as each module in a software is dependent on various other modules or dependencies which cannot be considered in case of unit testing. Hence, mocked objects are used to fill in place of the missing parts.
+
+Unit Test Life cycle
+Unit Test Life Cycle
+The Developer generally designs unit test cases that automatically verifies the correctness of a module after any change. But, it can also be manual with a higher level of control over cases. Some of the commonly used Unit Testing tools are: Jtest, Junit,EMMA, etc.
+
+For more information on tools like Junit check out Knoldus Blogs
+
+After passing the unit test cases, the software goes through the next phase of testing, which is:
+
+Integration Testing
+Integration testing is the process that verifies the functioning of all the modules as a group. It verifies the integration or interfacing between each module in a software. It is dependent on various other outside systems like databases and allocated hardware. Designing Integration test cases requires much more effort to put together as compared to unit test cases. Also, any error occurring during this testing is difficult to find as the scope of integration testing is very wide. Some of the Integration Testing tools are: FitNesse, Protractor, etc.
+
+For further understanding about tools like FitNesse check out Knoldus Blogs
+
+Integration Testing
+Integration Testing
+Unit Testing and Integration Testing are the initial and most important stages of testing.Apart from these there are some other phases in testing. For further understanding with examples watch video tutorial here.
+
+For more awesome articles on various fields in technology check out Knoldus Blogs.
